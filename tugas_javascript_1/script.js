@@ -11,13 +11,13 @@ console.table([{
 }])
 
 // latihan soal 2
-const nilai1 = 20
-const nilai2 = 30
+const nilai1 = 12
+const nilai2 = 6
 console.table([{
-    pertambahan: nilai1 + nilai2,
-    pengurangan: nilai1 - nilai2,
-    perkalian: nilai1 * nilai2,
-    pembagian: nilai1 + nilai2,
+    pertambahan: `${nilai1} + ${nilai2} = ${nilai1 + nilai2}`,
+    pengurangan: `${nilai1} - ${nilai2} = ${nilai1 - nilai2}`,
+    perkalian: `${nilai1} x ${nilai2} = ${nilai1 * nilai2}`,
+    pembagian: `${nilai1} : ${nilai2} = ${nilai1 / nilai2}`,
 }])
 
 // latihan soal 3
